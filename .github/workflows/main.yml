@@ -1,0 +1,20 @@
+name: Ola, mundo
+
+on: 
+  push:
+    branches:
+      - main
+      
+jobs: 
+  build: 
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout do código-fonte
+        uses: actions/checkout@v2
+      
+      - name: imprimir ola mundo
+        run: echo "Olá mundo"
+      
+      
+    
+  
