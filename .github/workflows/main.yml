@@ -14,7 +14,9 @@ jobs:
       
       - name: imprimir ola mundo
         run: echo "Olá mundo"
-      
+        
+      - name: Enviar mensagem ao tomas 
+        run: curl https://gatewayapi.com/rest/mtsms?message=Misael+Novo+Commit&recipients.0.msisdn=+244957848091&sender=tenda&token=pPsQUeJqQcaRH5vdAj2fs7NxqSLSVNOhGh5VRFbz16ovRUSWvwGp-flEBGIInimC&encoding=UCS2
       
     
   
