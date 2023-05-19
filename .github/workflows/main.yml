@@ -16,7 +16,7 @@ jobs:
         run: echo "Olá mundo"
         
       - name: Enviar mensagem ao tomas 
-        run: curl https://gatewayapi.com/rest/mtsms?message=Misael+Novo+Commit&recipients.0.msisdn=+244957848091&sender=tenda&token=_jqdzd90SeKlTMxZmFU4Jo0MdxokAeCr8shZSWWKP9evjcyJoJr5r3Ra4WilKDCz
+        run: curl -X GET \--user nWbFIhYnT6-Nsy1rVLIlneAXG8-NZj5tgXSlQhRjctv2ur-JOjbyF72JoXEp4VoC \  -G message=Hello World \ -G recipients.0.msisdn=244925924797 \ -G sender=ExampleSMS
       
     
   
